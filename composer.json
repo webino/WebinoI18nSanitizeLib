@@ -1,0 +1,45 @@
+{
+    "name":        "webino/webino-i18n-sanitize-lib",
+    "description": "Internationalization Sanitize Filter for Zend Framework 2",
+    "type":        "BSD-3-Clause",
+    "license":     "proprietary",
+    "keywords":    ["webino", "i18n", "sanitize", "zf2"],
+    "homepage":    "http://github.com/webino/WebinoI18nSanitizeLib",
+    "authors": [
+        {
+            "name":     "Webino, s. r. o.",
+            "email":    "info@webino.sk",
+            "homepage": "http://webino.sk",
+            "role":     "Developer"
+        },
+        {
+            "name":     "Peter Bacinsky",
+            "email":    "peter@bacinsky.sk",
+            "homepage": "http://bacinsky.sk",
+            "role":     "Developer"
+        },
+        {
+            "name":     "Martin Hujer",
+            "email":    "mhujer@gmail.com",
+            "homepage": "http://martinhujer.cz",
+            "role":     "Developer"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "php": ">=5.6",
+        "zendframework/zend-filter": "2.*"
+    },
+    "require-dev": {
+        "webino/webino-dev": "dev-develop"
+    },
+    "autoload": {
+        "psr-4": {"WebinoI18nSanitizeLib\\": "src/"}
+    },
+    "extra": {
+        "webino-devkit": {
+            "context": ["library", "github", "zend"]
+        }
+    }
+}
