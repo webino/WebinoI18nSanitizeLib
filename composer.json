@@ -1,8 +1,8 @@
 {
     "name":        "webino/webino-i18n-sanitize-lib",
     "description": "Internationalization Sanitize Filter for Zend Framework 2",
-    "type":        "BSD-3-Clause",
-    "license":     "proprietary",
+    "type":        "library",
+    "license":     "BSD-3-Clause",
     "keywords":    ["webino", "i18n", "sanitize", "zf2"],
     "homepage":    "http://github.com/webino/WebinoI18nSanitizeLib",
     "authors": [
