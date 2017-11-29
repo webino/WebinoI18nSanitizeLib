@@ -2,7 +2,6 @@
 
 use Tester\Assert;
 use WebinoI18nSanitizeLib\Transliteration;
-use Zend\Filter\Exception;
 
 require __DIR__ . '/../bootstrap.php';
 
