@@ -1,10 +1,6 @@
 language: php
 php:
-  - 5.6
-  - 7.0
-matrix:
-  allow_failures:
-    - php: 7.0
+  - 7.1
 before_install:
   - curl -s https://get.webino.org/support/travis/before-install | sudo -E sh
 install:
@@ -17,3 +13,7 @@ after_failure:
   - curl -s https://get.webino.org/support/travis/after-failure | sh
 after_success:
   - curl -s https://get.webino.org/support/travis/after-success | sh
+env:
+  global:
+    - GH_REF=github.com/webino/WebinoI18nSanitizeLib
+    - secure: CRJuoWKGlAruMcmdFXguL5zcyfjHxM3vvTT249uhSlkgVH9IX7o9KAjrBMtstAXSKuDs+jJpptdnUrvON2r9ePeNPPPeM02jakEcYRe0mvtldUI3xsIsYCdo/b+bsSOzpz3MDjUGGcZpK1eoQs2RRP9A6sOa2m9dEmyWjGdNeWushtpgsG/Hxh+2Zh4KFFqOUQAWYf466LRkljiGCbXzI/z4mWfhVsUhIXq1NImNrT4pQdKLyenz+JuyzsRnMjvDLiDSrDM46+2s+t6cUPV72im4UYpPV2MlAzesSnbbOXD80O9QlQG8DHBVjl4dq/abjRy7zjcedXFLXsRfzLu6VIs+2+b8tnNushn8WkHIMQ5AXsDrr+PRjcKLj6bu4C4kPuuseflFM3CO3I8kglkYI/LTPmPIHqeBNQP5ykBn7FH7Nzyi4WTY/nxABBta5kZSJb012TxVzhfrRykVuhnwMBHxYJFmZmj6gO4btxtkQZD3YgOqsVWGLKFL8pWs3b1HWnTwT/0uKMRYWGz9HULwEHvNbMe3NCosnQzLXqT8F5pCDhh0Vn78xPMKkRdJPGLRW5tmymre7A3IlDbh4iTckuoS7+L19tdxaeIoiWQLseXxs03RiIiitx9zMfPcjqO6B0TDwSBytiPvuOQ0pWwwEZxD3sh8FlomK1/WUiTh6vw=
