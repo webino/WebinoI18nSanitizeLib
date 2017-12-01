@@ -13,11 +13,11 @@ Based on [Martin Hujer's Components](https://github.com/webino/MhujerZF1Classes)
 
 ## Features
 
-  - Sanitize international string
+- Sanitize international string
 
 ## Setup
 
-  - Run: `php composer.phar require webino/webino-i18n-sanitize-lib:dev-develop`
+Run: `php composer.phar require webino/webino-i18n-sanitize-lib:dev-develop`
 
 ## QuickStart
 
@@ -26,4 +26,7 @@ Based on [Martin Hujer's Components](https://github.com/webino/MhujerZF1Classes)
 
 ## Addendum
 
-Please, if you are interested in this Webino™ library, report any issues and don't hesitate to contribute.
+  Please, if you are interested in this Webino™ library, report any issues and don't hesitate to contribute.
+  We will appreciate any contributions on development of this library.
+
+[Issue](https://github.com/webino/WebinoI18nSanitizeLib/issues) | [Fork](https://github.com/webino/WebinoI18nSanitizeLib) | [Develop](https://github.com/webino/Webino/wiki)
