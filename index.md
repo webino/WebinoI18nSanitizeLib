@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+# Webino International Sanitize Library
 
-You can use the [editor on GitHub](https://github.com/webino/WebinoI18nSanitizeLib/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://secure.travis-ci.org/webino/WebinoI18nSanitizeLib.png?branch=develop)](http://travis-ci.org/webino/WebinoI18nSanitizeLib "Develop Build Status")
+[![Coverage Status](https://coveralls.io/repos/webino/WebinoI18nSanitizeLib/badge.png?branch=develop)](https://coveralls.io/r/webino/WebinoI18nSanitizeLib?branch=develop "Develop Coverage Status")
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/webino/WebinoI18nSanitizeLib/badges/quality-score.png?b=develop)](https://scrutinizer-ci.com/g/webino/WebinoI18nSanitizeLib/?branch=develop "Develop Quality Score")
+<br />
+[![Latest Stable Version](https://poser.pugx.org/webino/webino-i18n-sanitize-lib/v/stable.svg)](https://packagist.org/packages/webino/webino-i18n-sanitize-lib)
+[![Latest Unstable Version](https://poser.pugx.org/webino/webino-i18n-sanitize-lib/v/unstable.svg)](https://packagist.org/packages/webino/webino-i18n-sanitize-lib)
+[![Total Downloads](https://poser.pugx.org/webino/webino-i18n-sanitize-lib/downloads.svg)](https://packagist.org/packages/webino/webino-i18n-sanitize-lib)
+[![License](https://poser.pugx.org/webino/webino-i18n-sanitize-lib/license.svg)](https://packagist.org/packages/webino/webino-i18n-sanitize-lib)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Based on [Martin Hujer's Components](https://github.com/webino/MhujerZF1Classes)
 
-### Markdown
+## Features
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  - Sanitize international string
 
-```markdown
-Syntax highlighted code block
+## Setup
 
-# Header 1
-## Header 2
-### Header 3
+  - Run: `php composer.phar require webino/webino-i18n-sanitize-lib:dev-develop`
 
-- Bulleted
-- List
+## QuickStart
 
-1. Numbered
-2. List
+    $sanitize = new \WebinoI18nSanitizeLib\Sanitize;
+    $sanitize->filter('šľžťýá'); // returns slztya
 
-**Bold** and _Italic_ and `Code` text
+## Addendum
 
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/webino/WebinoI18nSanitizeLib/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Please, if you are interested in this Webino™ library, report any issues and don't hesitate to contribute.
